@@ -354,7 +354,7 @@ transform: scale(1);
 @keyframes animateText{
   0%,18%,20%,50.1%,60%,65.1%,80%,90.10%,92%
   {
-    color: rgb(255, 255, 255);
+    color: var(--text-color);
     text-shadow: none;
   }
 
@@ -362,10 +362,10 @@ transform: scale(1);
   {
     color: var(--first-color-alt);
     text-shadow: 0 0 10px var(--first-color-alt),
-    0 0 20px var(--first-color-alt),
-    0 0 40px var(--first-color-alt),
-    0 0 80px var(--first-color-alt),
-    0 0 160px var(--first-color-alt);
+    0 0 0px var(--first-color-alt),
+    0 0 0px var(--first-color-alt),
+    0 0 0px var(--first-color-alt),
+    0 0 30px var(--first-color-alt);
   }
 }
 
