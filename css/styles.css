@@ -369,6 +369,13 @@ transform: scale(1);
   }
 }
 
+/* TEXTO 2 */
+
+
+
+/* TEXTO 2 */
+
+
 .home-title{
   font-size: var(--biggest-font-size);
 }
@@ -543,6 +550,16 @@ transform: scale(1);
   display: flex;
   align-items: center;
   cursor: pointer;
+}
+
+.skills-header:not(:last-child){
+  margin-bottom: var(--mb-2-5);
+}
+
+.skills-icon,
+.skills-arrow{
+  font-size: 2rem;
+  color: var(--skin-color);
 }
 
 /*===== Work Section =====*/
