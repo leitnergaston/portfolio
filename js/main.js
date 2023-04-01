@@ -57,10 +57,49 @@ function portfolioItemDetails(portfolioItem) {
     document.querySelector(".portfolio-popup-body").innerHTML = portfolioItem.querySelector(".portfolio-item-details").innerHTML;
 }
 /*=============== SERVICES MODAL ===============*/
+const modalViews = document.querySelectorAll('.services-modal'),
+      modelBtns = document.querySelectorAll('.services-button'),
+      modalCloses = document.querySelectorAll('.services-modal-close')
+
+    let modal = function(modalClick) {
+        modalViews[modalClick].classList.add('active-modal')
+    }
+
+    modelBtns.forEach((modelBtn, i) => {
+        modelBtn.addEventListener('click', () => {
+            modal(i)
+        })
+    })
+
+    modalCloses.forEach((modalClose) => {
+        modalClose.addEventListener("click", () => {
+            modalViews.forEach((modalView) => {
+                modalView.classList.remove('active-modal')
+            })
+        })
+    })
+
 
 
 /*=============== SWIPER TESTIMONIAL ===============*/
-
+let swiper = new Swiper(".testimonials-container", {
+    spaceBewtween: 24,
+    loop: true,
+    grabCursor: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    breakpoints: {
+        576: {
+            slidesPerView: 2,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 48,
+        },
+    }
+});
 
 /*=============== INPUT ANIMATION ===============*/
 
