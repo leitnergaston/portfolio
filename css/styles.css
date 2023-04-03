@@ -440,6 +440,22 @@ transform: scale(1);
 }
 
 
+.info-link{
+  color: white;
+  text-decoration: underline var(--skin-color);
+  box-shadow: inset 0 0 0 0 var(--skin-color);
+  transition: color .4s ease-in-out, box-shadow .4s ease-in-out;
+}
+
+.info-link:hover{
+  color: white;
+  box-shadow: inset 200px 0 0 0 var(--skin-color);
+}
+
+
+
+
+
 /* ==================== ABOUT ==================== */
 .about-container{
   grid-template-columns: repeat(2, 1fr);
