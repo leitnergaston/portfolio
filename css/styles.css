@@ -360,7 +360,7 @@ transform: scale(1);
 }
 
 .home-social-link{
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: var(--text-color);
   transition: .3s;
 }
@@ -410,8 +410,35 @@ transform: scale(1);
 
 .home-description{
   max-width: 450px;
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-2);  
 }
+
+/* MAQUINA DE ESCRIBIR PARRAFO */
+.maquina-escribir {
+    font-family: monospace;
+    white-space: nowrap; /* los espacios en blanco no rompen la línea */        
+    width: 20ch; /* el ancho será el número de caracteres que tiene nuestra línea */
+    animation: escribiendo ss steps(20);          
+    overflow: hidden;
+}
+
+.cursor{
+  animation: 0.6s parpadeo-cursor infinite;
+}
+
+@keyframes escribiendo {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes parpadeo-cursor {
+  50% {
+    opacity: 0;
+  }
+}
+/* MAQUINA DE ESCRIBIR PARRAFO */
+
 
 .my-info{
   display: flex;
