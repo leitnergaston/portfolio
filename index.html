@@ -37,6 +37,9 @@
 
 <body>
     <!-- ====== SIDEBAR ====== -->
+    <div class="nav-toggle" id="nav-toggle">
+        <i class="uil uil-bars"></i>
+    </div>
     <aside class="sidebar" id="sidebar">
         <nav class="nav">
             <div class="nav-logo">
@@ -71,6 +74,10 @@
             <div class="btn-share">
                 <i class="uil uil-share-alt social-share"></i>
             </div>
+
+            <div class="nav-close" id="nav-close">
+                <i class="uil uil-times"></i>
+            </div>
         </nav>
     </aside>
 
@@ -104,16 +111,13 @@
                         <a href="https://soundcloud.com/gastex" target="_blank" class="home-social-link">
                             <i class="fab fa-soundcloud"></i>
                         </a>
-
                         
-
                     </div>
                 </div>
 
                 <img src="/img/portfolio2/home-img.png" alt="" class="home-img">
 
                 <div class="home-data">
-                
 
                     <!-- TEXT ANIMATION 2 -->
                     <!-- <h1 class="home-title">Hi im 
@@ -886,11 +890,117 @@
         </section>
 
         <!-- ====== CONTACT ====== -->
+        <section class="contact section" id="contact">
+            <h2 data-heading="Get in touch" class="section-title">Contáctame</h2>
+            
+            <div class="contact-container container grid">
 
+                <div class="contact-content">
+                    <div class="contact-info">
+
+                        <div class="contact-card">
+                            <i class="uil uil-envelope-edit contact-card-icon"></i>
+                            <h3 class="contact-card-title">Email</h3>
+                            <span class="contact-card-data">leitnergaston@gmail.com</span>
+                            <a href="mailto:gastoncito8888@gmail.com" target="_blank" class="contact-button">
+                                Escríbeme <i class="uil uil-angle-right contact-button-icon"></i>
+                            </a>
+                        </div>
+
+                        <div class="contact-card">
+                            <i class="uil uil-whatsapp contact-card-icon"></i>
+                            <h3 class="contact-card-title">WhatsApp</h3>
+                            <span class="contact-card-data">+549 261-657-8894</span>
+                            <a href="https://wa.me/+5492616578894" target="_blank" class="contact-button">
+                                Escríbeme <i class="uil uil-angle-right contact-button-icon"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="contact-content">
+                    <form name="submit-to-google-sheet" class="contact-form">
+                        <div class="input-container">
+                            <input type="text" name="Name" class="input" required>
+                            <label for="">Nombre y Apellido</label>
+                            <span>Nombre y Apellido</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="email" name="Email" class="input" required>
+                            <label for="">Email</label>
+                            <span>Email</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="tel" name="Tel" class="input">
+                            <label for="">Celular</label>
+                            <span>Celular</span>
+                        </div>
+                        <div class="input-container textarea">
+                            <textarea name="Message" id="" class="input" required></textarea>
+                            <label for="">Mensaje</label>
+                            <span>Mensaje</span>
+                        </div>
+                        <button type="submit" class="button"><i class="uil uil-navigator button-icon"></i>
+                            Enviar Mensaje
+                        </button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- ====== FOOTER ====== -->
+        <footer class="footer">
+            <div class="footer-bg">
+                <div class="footer-container container grid">
+                    <div>
+                        <h1 class="footer-title text-ilumination">Gaston</h1>
+                        <span class="footer-subtitle">Desarrollador Java</span>
+                    </div>
+
+                    <ul class="footer-links">
+                        <li>
+                            <a href="#work" class="footer-link">Proyectos</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer-link">Contacto</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer-socials">
+                        <a href="https://wa.me/+5492616578894" target="_blank" class="footer-social">
+                            <i class="uil uil-whatsapp"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/leitnergaston/" target="_blank" class="footer-social">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://github.com/leitnergaston" target="_blank" class="footer-social">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/gastex/" target="_blank" class="footer-social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+
+                        <a href="https://open.spotify.com/artist/2znWUnkP268dzzX9INyXv8?si=Ma-k1lOUStmf1wGMFIBu2w" target="_blank" class="footer-social">
+                            <i class="fab fa-spotify"></i>
+                        </a>
+
+                        <a href="https://soundcloud.com/gastex" target="_blank" class="footer-social">
+                            <i class="fab fa-soundcloud"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer-copy">&#169; Gaston Leitner Todos los derechos reservados</p>
+            </div>
+        </footer>
 
     </main>
 
-    <!-- ====== FOOTER ====== -->
+    
 
     <!-- ====== SCROLL UP ====== -->
 </body>
@@ -903,18 +1013,34 @@
 
 
 
-<!--=============== SCROLLREVEAL ===============-->
-<script src=""></script>
 
 <!--=============== SWIPER JS ===============-->
 <script src="/js/swiper-bundle.min.js"></script>
 
-<!--=============== MIXITUP FILTER ===============-->
-<!-- <script src="js/mixitup.min.js"></script> -->
 
 <!--=============== MAIN JS ===============-->
 <script src="js/main.js"></script>
 <script src="js/text-animation2.js"></script>
 <script src="js/maquina-escribir2.js"></script>
+
+<!--=============== FORMULARIO DE CONTACTO JS ===============-->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx3ghogqTKloheENk9Vz5AATGol9Uhtn9dKjZ2iDHbSDSwGdTB6VjUy1uYVYCEDTvaPrg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("mgs")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Mensaje enviado correctamente"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
 
 </html>
