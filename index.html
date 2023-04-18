@@ -937,7 +937,7 @@
                             <span>Celular</span>
                         </div>
                         <div class="input-container textarea">
-                            <textarea name="Message" id="" class="input" required></textarea>
+                            <textarea name="Message" class="input" required></textarea>
                             <label for="">Mensaje</label>
                             <span>Mensaje</span>
                         </div>
@@ -947,6 +947,8 @@
                     </form>
                     <span id="msg"></span>
                 </div>
+
+                
                 
             </div>
         </section>
@@ -1024,23 +1026,7 @@
 <script src="js/maquina-escribir2.js"></script>
 
 <!--=============== FORMULARIO DE CONTACTO JS ===============-->
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbx3ghogqTKloheENk9Vz5AATGol9Uhtn9dKjZ2iDHbSDSwGdTB6VjUy1uYVYCEDTvaPrg/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("mgs")
+<script src="js/contact-form.js"></script>
 
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            msg.innerHTML = "Mensaje enviado correctamente"
-            setTimeout(function(){
-                msg.innerHTML = ""
-            },3000)
-            form.reset()
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
 
 </html>
