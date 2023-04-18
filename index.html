@@ -920,24 +920,24 @@
                 </div>
 
                 <div class="contact-content">
-                    <form name="submit-to-google-sheet" class="contact-form">
+                    <form action="https://formspree.io/f/xdovynwp" method="POST" id="form" class="contact-form">
                         <div class="input-container">
-                            <input type="text" name="Name" class="input" required>
-                            <label for="">Nombre y Apellido</label>
-                            <span>Nombre y Apellido</span>
+                            <input type="text" name="name" class="input" required>
+                            <label for="">Nombre Completo</label>
+                            <span>Nombre Completo</span>
                         </div>
                         <div class="input-container">
-                            <input type="email" name="Email" class="input" required>
+                            <input type="email" name="email" class="input" required>
                             <label for="">Email</label>
                             <span>Email</span>
                         </div>
-                        <div class="input-container">
-                            <input type="tel" name="Tel" class="input">
-                            <label for="">Celular</label>
-                            <span>Celular</span>
-                        </div>
+                        <!-- <div class="input-container">
+                            <input type="text" name="asunto" class="input">
+                            <label for="">Asunto</label>
+                            <span>Asunto</span>
+                        </div> -->
                         <div class="input-container textarea">
-                            <textarea name="Message" class="input" required></textarea>
+                            <textarea name="message" class="input" required></textarea>
                             <label for="">Mensaje</label>
                             <span>Mensaje</span>
                         </div>
