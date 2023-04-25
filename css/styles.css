@@ -1309,6 +1309,7 @@ textarea.input{
 }
 
 @media screen and (max-width: 1024px) {
+
   .container{
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
@@ -1438,6 +1439,19 @@ textarea.input{
 
 /* For Medium Devices */
 @media screen and (max-width: 768px) {
+
+  .home{
+    background-image: none;
+  }
+
+  .home-img{
+    display: block;
+    width: 300px;
+    justify-self: center;
+    border-radius: .5rem;
+  }
+
+
   .about-img{
     width: 250px;
   }
@@ -1516,6 +1530,7 @@ textarea.input{
 }
 
 @media screen and (max-width: 576px) {
+
   .nav.toggle{
     right: initial;
     left: 1.5rem;
@@ -1536,6 +1551,7 @@ textarea.input{
     display: block;
     width: 250px;
     justify-self: center;
+    border-radius: .5rem;
   }
 
   .home-social{
@@ -1597,6 +1613,17 @@ textarea.input{
 
 /* For Small Devices */
 @media screen and (max-width: 350px) {
+
+  .home__handle {
+    width: 150px;
+    height: 253px;
+  }
+
+  .home__blob {
+    width: 150px;
+  }
+
+
   .container{
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
