@@ -292,6 +292,11 @@ transform: scale(1);
 
 .social-share{
   font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.social-share:hover{
+  color: var(--skin-color);
 }
 
 .nav-toggle{

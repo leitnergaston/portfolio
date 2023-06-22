@@ -1,3 +1,21 @@
+/*=============== SHARE ICON ===============*/
+const shareButton = document.getElementById('share-icon');
+shareButton.addEventListener('click', () => {
+  if (navigator.share) {
+    navigator.share({
+      title: document.title,
+      url: window.location.href
+    })
+      .then(() => console.log('Contenido compartido exitosamente.'))
+      .catch((error) => console.error('Error al compartir:', error));
+  } else {
+    console.log('La función de compartir no es compatible en este navegador.');
+  }
+});
+
+
+
+
 /*=============== SHOW SIDEBAR ===============*/
 const navMenu = document.getElementById('sidebar'),
       navToggle = document.getElementById('nav-toggle'),
