@@ -1,3 +1,14 @@
+/*=============== PRELOADER ===============*/
+window.onload = function(){
+    alert('hola');
+    $('#onload').fadeOut();
+    $('body').removeClass('body-hidden');
+
+}
+
+
+
+
 /*=============== SHARE ICON ===============*/
 const shareButton = document.getElementById('share-icon');
 shareButton.addEventListener('click', () => {
@@ -173,3 +184,6 @@ function navHighlighter(){
 }
 
 /*=============== SHOW SCROLL UP ===============*/
+
+
+
