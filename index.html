@@ -1,165 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--=============== FAVICON ===============-->
-    <link
-      rel="shortcut icon"
-      href="/img/icons8-death-star-90.png"
-      type="image/x-icon"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--=============== UNICONS ===============-->
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-    />
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="/img/icons8-death-star-90.png" type="image/x-icon" />
 
-    <!--=============== BOXICONS ===============-->
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+  <!--=============== UNICONS ===============-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
 
-    <!--=============== FONTS ===============-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-    />
+  <!--=============== BOXICONS ===============-->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 
-    <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+  <!--=============== FONTS ===============-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
 
-    <!--=============== CSS STYLES ===============-->
-    <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="stylesheet" href="css/text-animation2.css" />
-    <link rel="stylesheet" href="css/text-animation3.css" />
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
 
-    <title>Gaston Leitner</title>
+  <!--=============== CSS STYLES ===============-->
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="css/text-animation2.css" />
+  <link rel="stylesheet" href="css/text-animation3.css" />
 
-    <!-- ========== NIEVE ========== -->
-    <!-- <script 
+  <title>Gaston Leitner</title>
+
+  <!-- ========== NIEVE ========== -->
+  <!-- <script 
         defer
         src="https://app.embed.im/snow.js"
     
     ></script> -->
-  </head>
+</head>
 
-  <body>
-    <!-- PRELOADER -->
-    <!-- <div class="containerLoader">
+<body>
+  <!-- PRELOADER -->
+  <!-- <div class="containerLoader">
       <div class="loader"></div>
       <p class="message">Cargando...</p>
     </div> -->
 
-    <!-- ====== SIDEBAR ====== -->
-    <div class="nav-toggle" id="nav-toggle">
-      <i class="uil uil-bars"></i>
-    </div>
-    <aside class="sidebar" id="sidebar">
-      <nav class="nav">
-        <div class="nav-logo">
-          <a href="index.html" class="nav-logo-text logo-ilumination">G</a>
-        </div>
+  <!-- ====== SIDEBAR ====== -->
+  <div class="nav-toggle" id="nav-toggle">
+    <i class="uil uil-bars"></i>
+  </div>
+  <aside class="sidebar" id="sidebar">
+    <nav class="nav">
+      <div class="nav-logo">
+        <a href="index.html" class="nav-logo-text logo-ilumination">G</a>
+      </div>
 
-        <div class="nav-menu">
-          <div class="menu">
-            <ul class="nav-list">
-              <li class="nav-item">
-                <a href="#home" class="nav-link active-link">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a href="#about" class="nav-link">Sobre mi</a>
-              </li>
-              <li class="nav-item">
-                <a href="#skills" class="nav-link">Habilidades</a>
-              </li>
-              <li class="nav-item">
-                <a href="#work" class="nav-link">Proyectos</a>
-              </li>
-              <!-- <li class="nav-item">
+      <div class="nav-menu">
+        <div class="menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link active-link">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a href="#work" class="nav-link">Proyectos</a>
+            </li>
+            <!-- <li class="nav-item">
                             <a href="#services" class="nav-link">Servicios</a>
                         </li> -->
-              <li class="nav-item">
-                <a href="#contact" class="nav-link">Contacto</a>
-              </li>
-            </ul>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="btn-share">
+        <i id="share-icon" class="uil uil-share-alt social-share"></i>
+      </div>
+
+      <div class="nav-close" id="nav-close">
+        <i class="uil uil-times"></i>
+      </div>
+    </nav>
+  </aside>
+
+  <!-- ====== MAIN ====== -->
+  <main class="main">
+    <!-- ====== HOME ====== -->
+    <section class="home" id="home">
+      <div class="home-container container grid">
+        <div class="home-social">
+          <span class="home-social-follow">Redes</span>
+          <div class="home-social-links">
+            <a href="https://wa.me/+5492616578894" target="_blank" class="home-social-link">
+              <i class="uil uil-whatsapp"></i>
+            </a>
+            <a href="https://linkedin.com/in/leitnergaston/" target="_blank" class="home-social-link">
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+            <a href="https://github.com/leitnergaston" target="_blank" class="home-social-link">
+              <i class="uil uil-github-alt"></i>
+            </a>
+
+            <a href="https://www.instagram.com/gastex/" target="_blank" class="home-social-link">
+              <i class="uil uil-instagram"></i>
+            </a>
+
+            <a href="https://open.spotify.com/artist/2znWUnkP268dzzX9INyXv8?si=Ma-k1lOUStmf1wGMFIBu2w" target="_blank"
+              class="home-social-link">
+              <i class="fab fa-spotify"></i>
+            </a>
+
+            <a href="https://soundcloud.com/gastex" target="_blank" class="home-social-link">
+              <i class="fab fa-soundcloud"></i>
+            </a>
           </div>
         </div>
 
-        <div class="btn-share">
-          <i id="share-icon" class="uil uil-share-alt social-share"></i>
-        </div>
+        <img src="/img/foto perfil.jpg" alt="" class="home-img" />
 
-        <div class="nav-close" id="nav-close">
-          <i class="uil uil-times"></i>
-        </div>
-      </nav>
-    </aside>
-
-    <!-- ====== MAIN ====== -->
-    <main class="main">
-      <!-- ====== HOME ====== -->
-      <section class="home" id="home">
-        <div class="home-container container grid">
-          <div class="home-social">
-            <span class="home-social-follow">Redes</span>
-            <div class="home-social-links">
-              <a
-                href="https://wa.me/+5492616578894"
-                target="_blank"
-                class="home-social-link"
-              >
-                <i class="uil uil-whatsapp"></i>
-              </a>
-              <a
-                href="https://linkedin.com/in/leitnergaston/"
-                target="_blank"
-                class="home-social-link"
-              >
-                <i class="uil uil-linkedin-alt"></i>
-              </a>
-              <a
-                href="https://github.com/leitnergaston"
-                target="_blank"
-                class="home-social-link"
-              >
-                <i class="uil uil-github-alt"></i>
-              </a>
-
-              <a
-                href="https://www.instagram.com/gastex/"
-                target="_blank"
-                class="home-social-link"
-              >
-                <i class="uil uil-instagram"></i>
-              </a>
-
-              <a
-                href="https://open.spotify.com/artist/2znWUnkP268dzzX9INyXv8?si=Ma-k1lOUStmf1wGMFIBu2w"
-                target="_blank"
-                class="home-social-link"
-              >
-                <i class="fab fa-spotify"></i>
-              </a>
-
-              <a
-                href="https://soundcloud.com/gastex"
-                target="_blank"
-                class="home-social-link"
-              >
-                <i class="fab fa-soundcloud"></i>
-              </a>
-            </div>
-          </div>
-
-          <img src="/img/foto perfil.jpg" alt="" class="home-img" />
-
-          <div class="home-data">
-            <!-- TEXT ANIMATION 2 -->
-            <!-- <h1 class="home-title">Hi im 
+        <div class="home-data">
+          <!-- TEXT ANIMATION 2 -->
+          <!-- <h1 class="home-title">Hi im 
                         <span class="letter home-title">G</span>
                           <span class="letter home-title">A</span>
                           <span class="letter home-title">S</span>
@@ -168,43 +133,41 @@
                           <span class="letter home-title">N</span>
                         <div id="test"></div>                                                   
                     </h1> -->
-            <!-- TEXT ANIMATION 2 -->
+          <!-- TEXT ANIMATION 2 -->
 
-            <!-- TEXT ANIMATION 3 -->
-            <!-- <h1 aria-label="Hi! I'm a developer">
+          <!-- TEXT ANIMATION 3 -->
+          <!-- <h1 aria-label="Hi! I'm a developer">
                         Hi! I'm a&nbsp;<span class="typewriter"></span>
                     </h1> -->
-            <!-- TEXT ANIMATION 3 -->
+          <!-- TEXT ANIMATION 3 -->
 
-            <h1 class="home-title">
-              Hola, Soy <span class="text-ilumination">Gaston</span>
-            </h1>
+          <h1 class="home-title">
+            Hola, Soy <span class="text-ilumination">Gaston</span>
+          </h1>
 
-            <h3 class="home-subtitle">Desarrollador Java</h3>
-            <!-- <p class="home-description style="font-style: italic;">descripcion</p> -->
-            <!-- <p class="home-subtitle maquina-escribir" style="font-style: italic;">Hola Mundo :)<span class="cursor">|</span></p> -->
+          <h3 class="home-subtitle">Desarrollador Junior Java</h3>
+          <!-- <p class="home-description style="font-style: italic;">descripcion</p> -->
+          <!-- <p class="home-subtitle maquina-escribir" style="font-style: italic;">Hola Mundo :)<span class="cursor">|</span></p> -->
 
-            <!-- TEXT ANIMATION 3 -->
-            <!-- <p class="wrap typewrite home-subtitle" data-period="2000" data-type='[ "Hola mundo", "Hello World", "Ciao mondo", "Ahoj světe", "salve mundo", "Salut monde" ]'></p> -->
-            <p
-              class="wrap typewrite home-subtitle"
-              data-period="2000"
-              data-type='[ "echo `Hola Mundo`", "PRINT `Hola Mundo`", "Console.WriteLine(`Hola Mundo`)", "System.out.print(`Hola Mundo`)", "document.write(`Hola Mundo`)", "cat(`Hola Mundo`)", "puts `Hola Mundo`" ]'
-            ></p>
-            <!-- TEXT ANIMATION 3 -->
+          <!-- TEXT ANIMATION 3 -->
+          <!-- <p class="wrap typewrite home-subtitle" data-period="2000" data-type='[ "Hola mundo", "Hello World", "Ciao mondo", "Ahoj světe", "salve mundo", "Salut monde" ]'></p> -->
+          <p class="wrap typewrite home-subtitle" data-period="2000"
+            data-type='[ "echo `Hola Mundo`", "PRINT `Hola Mundo`", "Console.WriteLine(`Hola Mundo`)", "System.out.print(`Hola Mundo`)", "document.write(`Hola Mundo`)", "cat(`Hola Mundo`)", "puts `Hola Mundo`" ]'>
+          </p>
+          <!-- TEXT ANIMATION 3 -->
 
-            <a download="" href="/pdf/CV GASTON LEITNER 2023.pdf" class="button"
-              ><i class="uil uil-file-download button-icon"></i>
-              Descarga mi CV
-            </a>
+          <a download="" href="/pdf/CV GASTON LEITNER.pdf" class="button"><i
+              class="uil uil-file-download button-icon"></i>
+            Descarga mi CV
+          </a>
 
-            <!-- <a href="#about" class="button"><i class="uil uil-user button-icon"></i>
+          <!-- <a href="#about" class="button"><i class="uil uil-user button-icon"></i>
                     Más Acerca de Mi
                     </a> -->
-          </div>
+        </div>
 
-          <div class="my-info">
-            <!-- <div class="info-item">
+        <div class="my-info">
+          <!-- <div class="info-item">
                         <i class="uil uil-facebook-messenger info-icon"></i>
 
                         <div>
@@ -213,581 +176,516 @@
                         </div>
                     </div> -->
 
-            <div class="info-item">
-              <i class="uil uil-whatsapp info-icon"></i>
+          <div class="info-item">
+            <i class="uil uil-whatsapp info-icon"></i>
 
-              <div>
-                <h3 class="info-title">WhatsApp</h3>
-                <span>
-                  <a
-                    href="https://wa.me/+5492616578894"
-                    target="_blank"
-                    class="info-link info-subtitle"
-                    >+549 261-657-8894</a
-                  >
-                </span>
-              </div>
+            <div>
+              <h3 class="info-title">WhatsApp</h3>
+              <span>
+                <a href="https://wa.me/+5492616578894" target="_blank" class="info-link info-subtitle">+549
+                  261-657-8894</a>
+              </span>
             </div>
+          </div>
 
-            <div class="info-item">
-              <i class="uil uil-envelope-edit info-icon"></i>
+          <div class="info-item">
+            <i class="uil uil-envelope-edit info-icon"></i>
 
-              <div>
-                <h3 class="info-title">Email</h3>
-                <span>
-                  <a
-                    href="mailto:leitnergaston@gmail.com"
-                    target="_blank"
-                    class="info-link info-subtitle"
-                    >leitnergaston@gmail.com</a
-                  >
-                </span>
-              </div>
+            <div>
+              <h3 class="info-title">Email</h3>
+              <span>
+                <a href="mailto:leitnergaston@gmail.com" target="_blank"
+                  class="info-link info-subtitle">leitnergaston@gmail.com</a>
+              </span>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- ====== ABOUT ====== -->
-      <section class="about section" id="about">
-        <h2 data-heading="Mi Intro" class="section-title">Sobre Mi</h2>
+    <!-- ====== ABOUT ====== -->
+    <section class="about section" id="about">
+      <h2 data-heading="Mi Intro" class="section-title">Sobre Mi</h2>
 
-        <div class="about-container container grid">
-          <img src="/img/foto perfil.jpg" alt="" class="about-img" />
+      <div class="about-container container grid">
+        <img src="/img/foto perfil.jpg" alt="" class="about-img" />
 
-          <div class="about-data">
-            <h3 class="about-heading">Hola, soy Gaston Leitner</h3>
-            <p class="about-description">
-              Soy estudiante 3er año de Ing. en Sistemas (UTN-FRM), autodidacta
-              en plataformas de educacion online (Udemy, Platzi, Youtube,
-              Domestika). Me gusta trabajar en equipo, desarrollar y colaborar
-              en varias tareas. Tengo conocimientos básicos en Html(basico),
-              Css(basico), JavaScript(intermedio), Java(intermedio). Estoy
-              estudiando Desarrollador Java en Argentina Programa 4.0 y un curso
-              de Ingles Tic en Fund. Santisima Trinidad. En mis tiempos libres
-              me gusta ver pelis y series, salir a andar en bici o hacer
-              ejercicio, desarrollar videojuegos, tocar el piano y componer
-              música. Te dejo mis links de SoundCloud y Spotify.
-            </p>
+        <div class="about-data">
+          <h3 class="about-heading">Hola, soy Gaston Leitner</h3>
+          <p class="about-description">
+            Soy estudiante 3er año de Ing. en Sistemas (UTN-FRM), autodidacta
+            en plataformas de educacion online (Udemy, Youtube, Mendoza Futura
+            Digital, Academias UTN). Me gusta trabajar en equipo, organizar,
+            desarrollar y colaborar en varias tareas/proyectos. Tengo
+            conocimientos en Html(basico), Css(basico), JavaScript(basico),
+            Java(intermedio), Sql(basico), estoy estudiando Java web para
+            seguir reforzando mis conocimientos y aprender nuevas
+            herramientas. En mis tiempos libres me gusta ver pelis y series,
+            salir en bici o ejercitarme desarrollar videojuegos, a vecces toco
+            el piano y compongo música. Te dejo mis links de SoundCloud y
+            Spotify.
+          </p>
 
-            <div class="home-social-links" style="padding-bottom: 2rem;">
-              <a
-                href="https://open.spotify.com/artist/2znWUnkP268dzzX9INyXv8?si=Ma-k1lOUStmf1wGMFIBu2w"
-                target="_blank"
-                class="home-social-link"
-              >
-                <i class="fab fa-spotify" style="font-size: 2rem;"></i>
-              </a>
+          <div class="home-social-links" style="padding-bottom: 2rem">
+            <a href="https://open.spotify.com/artist/2znWUnkP268dzzX9INyXv8?si=Ma-k1lOUStmf1wGMFIBu2w" target="_blank"
+              class="home-social-link">
+              <i class="fab fa-spotify" style="font-size: 2rem"></i>
+            </a>
 
-              <a
-                href="https://soundcloud.com/gastex"
-                target="_blank"
-                class="home-social-link"
-              >
-                <i class="fab fa-soundcloud" style="font-size: 2rem;"></i>
-              </a>
-            </div>
-
-            <div class="about-info grid">
-              <div class="about-box">
-                <i class="uil uil-award about-icon"></i>
-                <h3 class="about-title">Estudios</h3>
-                <span class="about-subtitle">3er año Ing. Sistemas</span>
-              </div>
-
-              <div class="about-box">
-                <i class="uil uil-suitcase-alt about-icon"></i>
-                <h3 class="about-title">Desarrolados</h3>
-                <span class="about-subtitle">4 proyectos</span>
-              </div>
-
-              <div class="about-box">
-                <i class="uil uil-headphones about-icon"></i>
-                <h3 class="about-title">Soporte</h3>
-                <span class="about-subtitle">Online 24/7</span>
-              </div>
-            </div>
-            <a href="#contact" class="button"
-              ><i class="uil uil-navigator button-icon"></i>
-              Contáctame
+            <a href="https://soundcloud.com/gastex" target="_blank" class="home-social-link">
+              <i class="fab fa-soundcloud" style="font-size: 2rem"></i>
             </a>
           </div>
-        </div>
-      </section>
 
-      <!-- ====== QUALIFICATION ====== -->
-      <section class="qualification section">
-        <h2 data-heading="Mi Viaje" class="section-title">Mis Estudios</h2>
+          <div class="about-info grid">
+            <div class="about-box">
+              <i class="uil uil-award about-icon"></i>
+              <h3 class="about-title">Estudios</h3>
+              <span class="about-subtitle">3er año Ing. Sistemas</span>
+            </div>
 
-        <div class="qualification-container container grid">
-          <div class="education">
-            <h3 class="qualification-title">
-              <i class="uil uil-graduation-cap"></i> Educacion
-            </h3>
+            <div class="about-box">
+              <i class="uil uil-suitcase-alt about-icon"></i>
+              <h3 class="about-title">Desarrolados</h3>
+              <span class="about-subtitle">+5 proyectos</span>
+            </div>
 
-            <div class="timeline">
-              <div class="timeline-item">
-                <div class="circle-dot"></div>
-                <h3 class="timeline title">
-                  Universidad Tecnologica Nacional (FRM)
-                </h3>
-                <p class="timeline-text">
-                  Ingenieria en Sistemas de Información
-                </p>
-                <span class="timeline-date"
-                  ><i class="uil uil-calendar-alt"></i>
-                  2017 - Actualidad
-                </span>
-              </div>
-
-              <div class="timeline-item">
-                <div class="circle-dot"></div>
-                <h3 class="timeline title">Argentina Programa 4.0</h3>
-                <p class="timeline-text">Programando en Java</p>
-                <p class="timeline-text">
-                  Java POO(Introduccion, Fundamentos, Relaciones, Herencia,
-                  Arrelgos y Colecciones, Excepciones)
-                </p>
-                <span class="timeline-date"
-                  ><i class="uil uil-calendar-alt"></i>
-                  Dic 2022 - Actualidad
-                </span>
-              </div>
-              
-              <div class="timeline-item">
-                <div class="circle-dot"></div>
-                <h3 class="timeline title">Fundación Santísima Trinidad</h3>
-                <p class="timeline-text">Curso Ingles Tic 2023</p>
-                <p class="timeline-text">
-                  
-                </p>
-                <span class="timeline-date"
-                  ><i class="uil uil-calendar-alt"></i>
-                  May 2023 - Actualidad
-                </span>
-              </div>
-
-              <div class="timeline-item">
-                <div class="circle-dot"></div>
-                <h3 class="timeline title">
-                  Oracle Next Education + Alura Latam
-                </h3>
-                <p class="timeline-text">Desarrolador Backend</p>
-                <p class="timeline-text">
-                  Java POO | MySql | Desarrollo Personal | Business Agility |
-                  Emprendimiento
-                </p>
-                <span class="timeline-date"
-                  ><i class="uil uil-calendar-alt"></i>
-                  Dic 2022 - Jun 2023
-                </span>
-              </div>
-
-              <div class="timeline-item">
-                <div class="circle-dot"></div>
-                <h3 class="timeline title">Academias UTN Mendoza</h3>
-                <p class="timeline-text">Aprendiendo a programar Java</p>
-                <p class="timeline-text">
-                  (Funciones, Estructura y Controles, Bucles, Arreglos)
-                </p>
-                <span class="timeline-date"
-                  ><i class="uil uil-calendar-alt"></i>
-                  Ago 2021 - Dic 2021
-                </span>
-              </div>
+            <div class="about-box">
+              <i class="uil uil-headphones about-icon"></i>
+              <h3 class="about-title">Soporte</h3>
+              <span class="about-subtitle">Online 24/7</span>
             </div>
           </div>
-
-          <!-- <div class="experience">
-                    <h3 class="qualification-title">
-                        <i class="uil uil-suitcase"></i> Experiencia
-                    </h3>
-
-                    <div class="timeline">
-                        <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h3 class="timeline title">Institucion</h3>
-                            <p class="timeline-text">Puesto</p>
-                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i>
-                            Fecha
-                            </span>
-                        </div>
-
-                        <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h3 class="timeline title">Institucion</h3>
-                            <p class="timeline-text">Puesto</p>
-                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i>
-                            Fecha
-                            </span>
-                        </div>
-
-                        <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h3 class="timeline title">Institucion</h3>
-                            <p class="timeline-text">Puesto</p>
-                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i>
-                            Fecha
-                            </span>
-                        </div>
-
-                    </div>
-                </div> -->
+          <a href="#contact" class="button"><i class="uil uil-navigator button-icon"></i>
+            Contáctame
+          </a>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- ====== SKILLS ====== -->
-      <section class="skills section" id="skills">
-        <h2 data-heading="Mis Habilidades" class="section-title">
-          Mi Experiencia
-        </h2>
+    <!-- ====== QUALIFICATION ====== -->
+    <section class="qualification section">
+      <h2 data-heading="Mi Viaje" class="section-title">Mis Estudios</h2>
 
-        <div class="skills-container container grid">
-          <div class="skills-tabs">
-            <div class="skills-header skills-active" data-target="#backend">
-              <i class="uil uil-server-network skills-icon"></i>
+      <div class="qualification-container container grid">
+        <div class="education">
+          <h3 class="qualification-title">
+            <i class="uil uil-graduation-cap"></i> Educacion
+          </h3>
 
-              <div>
-                <h1 class="skills-title">Backend</h1>
-                <!-- <span class="skills-subtitle">Más de 6 meses</span> -->
-              </div>
-
-              <i class="uil uil-angle-down skills-arrow"></i>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="circle-dot"></div>
+              <h3 class="timeline title">
+                Universidad Tecnologica Nacional (FRM)
+              </h3>
+              <p class="timeline-text">
+                Ingenieria en Sistemas de Información
+              </p>
+              <span class="timeline-date"><i class="uil uil-calendar-alt"></i>
+                Mar 2017 - Actualidad
+              </span>
             </div>
 
-            <div class="skills-header" data-target="#frontend">
-              <i class="uil uil-brackets-curly skills-icon"></i>
-
-              <div>
-                <h1 class="skills-title">Frontend</h1>
-                <!-- <span class="skills-subtitle">Más de 6 meses</span> -->
-              </div>
-
-              <i class="uil uil-angle-down skills-arrow"></i>
+            <div class="timeline-item">
+              <div class="circle-dot"></div>
+              <h3 class="timeline title">
+                Oracle Next Education + Alura Latam
+              </h3>
+              <p class="timeline-text">Desarrolador Backend</p>
+              <p class="timeline-text">
+                Java POO | MySql | Desarrollo Personal | Business Agility |
+                Emprendimiento
+              </p>
+              <span class="timeline-date"><i class="uil uil-calendar-alt"></i>
+                Dic 2022 - Jun 2023
+              </span>
             </div>
 
-            <div class="skills-header" data-target="#tools">
-              <i class="uil uil-swatchbook skills-icon"></i>
-
-              <div>
-                <h1 class="skills-title">Herramientas y Tecnologia</h1>
-                <!-- <span class="skills-subtitle">Más de 2 años</span> -->
-              </div>
-
-              <i class="uil uil-angle-down skills-arrow"></i>
-            </div>
-          </div>
-
-          <div class="skills-content">
-            <div class="skills-group skills-active" data-content id="backend">
-              <div class="skills-list grid">
-                <div class="skills-data">
-                  <div class="skills-titles">
-                    <h3 class="skills-name">Java</h3>
-                    <span class="skills-number">65%</span>
-                  </div>
-
-                  <div class="skills-bar">
-                    <span class="skills-percentage" style="width: 65%"></span>
-                  </div>
-                </div>
-
-                <div class="skills-data">
-                  <div class="skills-titles">
-                    <h3 class="skills-name">C#</h3>
-                    <span class="skills-number">25%</span>
-                  </div>
-
-                  <div class="skills-bar">
-                    <span class="skills-percentage" style="width: 25%"></span>
-                  </div>
-                </div>
-
-                <div class="skills-data">
-                  <div class="skills-titles">
-                    <h3 class="skills-name">MySql</h3>
-                    <span class="skills-number">10%</span>
-                  </div>
-
-                  <div class="skills-bar">
-                    <span class="skills-percentage" style="width: 10%"></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="skills-group" data-content id="frontend">
-              <div class="skills-list grid">
-                <div class="skills-data">
-                  <div class="skills-titles">
-                    <h3 class="skills-name">HTML</h3>
-                    <span class="skills-number">45%</span>
-                  </div>
-
-                  <div class="skills-bar">
-                    <span class="skills-percentage" style="width: 45%"></span>
-                  </div>
-                </div>
-
-                <div class="skills-data">
-                  <div class="skills-titles">
-                    <h3 class="skills-name">CSS</h3>
-                    <span class="skills-number">20%</span>
-                  </div>
-
-                  <div class="skills-bar">
-                    <span class="skills-percentage" style="width: 20%"></span>
-                  </div>
-                </div>
-
-                <div class="skills-data">
-                  <div class="skills-titles">
-                    <h3 class="skills-name">JavaScript</h3>
-                    <span class="skills-number">30%</span>
-                  </div>
-
-                  <div class="skills-bar">
-                    <span class="skills-percentage" style="width: 30%"></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="skills-group" data-content id="tools">
-              <div class="skills-list grid">
-                <div class="skills-data">
-                  <div class="skills-titles">
-                    <h3 class="skills-name">Figma</h3>
-                    <span class="skills-number">35%</span>
-                  </div>
-
-                  <div class="skills-bar">
-                    <span class="skills-percentage" style="width: 35%"></span>
-                  </div>
-                </div>
-
-                <div class="skills-data">
-                  <div class="skills-titles">
-                    <h3 class="skills-name">Canva</h3>
-                    <span class="skills-number">55%</span>
-                  </div>
-
-                  <div class="skills-bar">
-                    <span class="skills-percentage" style="width: 55%"></span>
-                  </div>
-                </div>
-
-                <div class="skills-data">
-                  <div class="skills-titles">
-                    <h3 class="skills-name">Photoshop</h3>
-                    <span class="skills-number">40%</span>
-                  </div>
-
-                  <div class="skills-bar">
-                    <span class="skills-percentage" style="width: 40%"></span>
-                  </div>
-                </div>
-
-                <div class="skills-data">
-                  <div class="skills-titles">
-                    <h3 class="skills-name">Unity</h3>
-                    <span class="skills-number">30%</span>
-                  </div>
-
-                  <div class="skills-bar">
-                    <span class="skills-percentage" style="width: 30%"></span>
-                  </div>
-                </div>
-
-              </div>
+            <div class="timeline-item">
+              <div class="circle-dot"></div>
+              <h3 class="timeline title">Academias UTN Mendoza</h3>
+              <p class="timeline-text">Aprendiendo a programar Java</p>
+              <p class="timeline-text">
+                (Funciones, Estructura y Controles, Bucles, Arreglos)
+              </p>
+              <span class="timeline-date"><i class="uil uil-calendar-alt"></i>
+                Ago 2021 - Dic 2021
+              </span>
             </div>
           </div>
         </div>
-      </section>
 
-      <!-- ====== WORK ====== -->
-      <section class="work section" id="work">
-        <h2 data-heading="Mi Portafolio" class="section-title">
-          Proyectos Recientes
-        </h2>
+        <div class="experience">
+          <h3 class="qualification-title">
+            <i class="uil uil-suitcase"></i> Educación
+          </h3>
 
-        <div class="work-container container grid">
-          <div class="work-card">
-            <img src="img/work/cajeroautomatico.jpg" alt="" class="work-img" />
-            <h3 class="work-title">Cajero Automático</h3>
-            <span class="work-button"
-              >Info
-              <i class="uil uil-arrow-right work-button-icon"></i>
-            </span>
-            <siv class="portfolio-item-details">
-              <h3 class="details-title">Cajero Automático basico</h3>
-              <p class="details-description">
-                Programado en Java usando condicionales, clases, excepciones, UI
-                Contiene un login, ingresar dinero, extraer dinero, mostrar
-                movimientos.
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="circle-dot"></div>
+              <h3 class="timeline title">Argentina Programa 4.0</h3>
+              <p class="timeline-text">Programador Java</p>
+              <p class="timeline-text">
+                Java POO(Introduccion, Fundamentos, Relaciones, Herencia,
+                Arrelgos y Colecciones, Excepciones), JDBC, Sql, Git, Github
               </p>
-              <ul class="details-info">
-                <li>Ultima Actualizacion - <span>dic 2021</span></li>
-                <li>Tecnologias - <span>Java</span></li>
-                <li>Tipo - <span>Escritorio</span></li>
-                <li>
-                  Ver -
-                  <span
-                    ><a
-                      href="https://github.com/leitnergaston/CajeroAutomatico"
-                      target="_blank"
-                      >link</a
-                    ></span
-                  >
-                </li>
-              </ul>
-            </siv>
-          </div>
+              <span class="timeline-date"><i class="uil uil-calendar-alt"></i>
+                Dic 2022 - Oct 2023
+              </span>
+            </div>
 
-          <div class="work-card">
-            <img src="img/work/mrmichgame.jpg" alt="" class="work-img" />
-            <h3 class="work-title">Mr Mich Game</h3>
-            <span class="work-button"
-              >Info
-              <i class="uil uil-arrow-right work-button-icon"></i>
-            </span>
-            <div class="portfolio-item-details">
-              <h3 class="details-title">Pagina Web de juegos Basica</h3>
-              <p class="details-description">
-                Diseño de una pagina web basica en desarrollo
-              </p>
-              <ul class="details-info">
-                <li>Ultima Actualizacion - <span>Dic 2022</span></li>
-                <li>Tecnologias - <span>Html | Css | JavaScript</span></li>
-                <li>Tipo - <span>Frontend</span></li>
-                <li>
-                  Ver -
-                  <span
-                    ><a href="https://mrmichgame.netlify.app" target="_blank"
-                      >link</a
-                    ></span
-                  >
-                </li>
-              </ul>
+            <div class="timeline-item">
+              <div class="circle-dot"></div>
+              <h3 class="timeline title">Mendoza Futura Digital</h3>
+              <p class="timeline-text">Programación en Java</p>
+              <span class="timeline-date"><i class="uil uil-calendar-alt"></i>
+                Oct 2023 - Actualidad
+              </span>
             </div>
           </div>
-
-          <div class="work-card">
-            <img src="img/work/mrmemory.jpg" alt="" class="work-img" />
-            <h3 class="work-title">Mr. Memory</h3>
-            <span class="work-button"
-              >Info
-              <i class="uil uil-arrow-right work-button-icon"></i>
-            </span>
-            <div class="portfolio-item-details">
-              <h3 class="details-title">Mr. Memory juego web</h3>
-              <p class="details-description">
-                Juego Basico de memoria de cartas, con niveles de dificultad,
-                temporizador y tabla de clasificaciones local. (En desarrollo)
-              </p>
-              <ul class="details-info">
-                <li>Ultima Actualizacion - <span>19 Jun 2023</span></li>
-                <li>Tecnologias - <span>html | css | JavaScript</span></li>
-                <li>Tipo - <span>Juego Web</span></li>
-                <li>
-                  Ver -
-                  <span
-                    ><a href="https://mrmemory.netlify.app" target="_blank"
-                      >link</a
-                    ></span
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="work-card">
-            <img src="img/work/donalandia.jpg" alt="" class="work-img" />
-            <h3 class="work-title">Donalandia</h3>
-            <span class="work-button"
-              >Info
-              <i class="uil uil-arrow-right work-button-icon"></i>
-            </span>
-            <div class="portfolio-item-details">
-              <h3 class="details-title">Donalandia</h3>
-              <p class="details-description">
-                Pagina web E-Commerce de venta de donas clasicas, especiales,
-                promociones, armá tu propia dona. (En desarrollo)
-              </p>
-              <ul class="details-info">
-                <li>Ultima Actualizacion - <span>---</span></li>
-                <li>Tecnologias - <span>html | css | JavaScript</span></li>
-                <li>Tipo - <span>Web</span></li>
-                <li>
-                  Ver -
-                  <span
-                    ><a href="https://donalandia.netlify.app" target="_blank"
-                      >link</a
-                    ></span
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- <div class="work-card">
-                    <img src="img/portfolio2/work-6.webp" alt="" class="work-img">
-                    <h3 class="work-title">Proyecto 6</h3>
-                    <span class="work-button">Info
-                        <i class="uil uil-arrow-right work-button-icon"></i>
-                    </span>
-                    <div class="portfolio-item-details">
-                        <h3 class="details-title">Titulo Proyecto 6</h3>
-                        <p class="details-description">Descripcion proyecto 6</p>
-                        <ul class="details-info">
-                            <li>Ultima Actualizacion - <span>9 may 2025</span></li>
-                            <li>Tecnologias - <span>html css</span></li>
-                            <li>Tipo - <span>frontend</span></li>
-                            <li>Ver - <span><a href="#">www.google.com.ar</a></span></li>
-                        </ul>
-                    </div>
-                
-                </div> -->
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- ====== PORTFOLIO POPUP ====== -->
-      <div class="portfolio-popup">
-        <div class="portfolio-popup-inner">
-          <div class="portfolio-popup-content grid">
-            <span class="portfolio-popup-close"
-              ><i class="uil uil-times"></i
-            ></span>
-            <div class="pp-thumbnail">
-              <img
-                src="img/portfolio2/work-2.webp"
-                alt=""
-                class="portfolio-popup-img"
-              />
+    <!-- ====== SKILLS ====== -->
+    <section class="skills section" id="skills">
+      <h2 data-heading="Mis Habilidades" class="section-title">
+        Mi Experiencia
+      </h2>
+
+      <div class="skills-container container grid">
+        <div class="skills-tabs">
+          <div class="skills-header skills-active" data-target="#backend">
+            <i class="uil uil-server-network skills-icon"></i>
+
+            <div>
+              <h1 class="skills-title">Backend</h1>
+              <!-- <span class="skills-subtitle">Más de 6 meses</span> -->
             </div>
-            <div class="portfolio-popup-info">
-              <div class="portfolio-popup-subtitle">- <span>Design</span></div>
-              <div class="portfolio-popup-body">
-                <h3 class="details-title">Mobile app landing design</h3>
-                <p class="details-description">
-                  alknsdjaobnf ausjbnfjk asbnf j
-                </p>
-                <ul class="details-info">
-                  <li>Created - <span>4 dec 2020</span></li>
-                  <li>Technologies - <span>html css</span></li>
-                  <li>Role - <span>frontend</span></li>
-                  <li>
-                    View - <span><a href="#">www.google.com.ar</a></span>
-                  </li>
-                </ul>
+
+            <i class="uil uil-angle-down skills-arrow"></i>
+          </div>
+
+          <div class="skills-header" data-target="#frontend">
+            <i class="uil uil-brackets-curly skills-icon"></i>
+
+            <div>
+              <h1 class="skills-title">Frontend</h1>
+              <!-- <span class="skills-subtitle">Más de 6 meses</span> -->
+            </div>
+
+            <i class="uil uil-angle-down skills-arrow"></i>
+          </div>
+
+          <div class="skills-header" data-target="#tools">
+            <i class="uil uil-swatchbook skills-icon"></i>
+
+            <div>
+              <h1 class="skills-title">Herramientas y Tecnologia</h1>
+              <!-- <span class="skills-subtitle">Más de 2 años</span> -->
+            </div>
+
+            <i class="uil uil-angle-down skills-arrow"></i>
+          </div>
+        </div>
+
+        <div class="skills-content">
+          <div class="skills-group skills-active" data-content id="backend">
+            <div class="skills-list grid">
+              <div class="skills-data">
+                <div class="skills-titles">
+                  <h3 class="skills-name">Java</h3>
+                  <span class="skills-number">70%</span>
+                </div>
+
+                <div class="skills-bar">
+                  <span class="skills-percentage" style="width: 70%"></span>
+                </div>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-titles">
+                  <h3 class="skills-name">Sql</h3>
+                  <span class="skills-number">20%</span>
+                </div>
+
+                <div class="skills-bar">
+                  <span class="skills-percentage" style="width: 20%"></span>
+                </div>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-titles">
+                  <h3 class="skills-name">vue.js</h3>
+                  <span class="skills-number">5%</span>
+                </div>
+
+                <div class="skills-bar">
+                  <span class="skills-percentage" style="width: 5%"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-group" data-content id="frontend">
+            <div class="skills-list grid">
+              <div class="skills-data">
+                <div class="skills-titles">
+                  <h3 class="skills-name">HTML</h3>
+                  <span class="skills-number">45%</span>
+                </div>
+
+                <div class="skills-bar">
+                  <span class="skills-percentage" style="width: 45%"></span>
+                </div>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-titles">
+                  <h3 class="skills-name">CSS</h3>
+                  <span class="skills-number">20%</span>
+                </div>
+
+                <div class="skills-bar">
+                  <span class="skills-percentage" style="width: 20%"></span>
+                </div>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-titles">
+                  <h3 class="skills-name">JavaScript</h3>
+                  <span class="skills-number">30%</span>
+                </div>
+
+                <div class="skills-bar">
+                  <span class="skills-percentage" style="width: 30%"></span>
+                </div>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-titles">
+                  <h3 class="skills-name">Boostrap</h3>
+                  <span class="skills-number">5%</span>
+                </div>
+
+                <div class="skills-bar">
+                  <span class="skills-percentage" style="width: 5%"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-group" data-content id="tools">
+            <div class="skills-list grid">
+              <div class="skills-data">
+                <div class="skills-titles">
+                  <h3 class="skills-name">Figma</h3>
+                  <span class="skills-number">35%</span>
+                </div>
+
+                <div class="skills-bar">
+                  <span class="skills-percentage" style="width: 35%"></span>
+                </div>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-titles">
+                  <h3 class="skills-name">Canva</h3>
+                  <span class="skills-number">55%</span>
+                </div>
+
+                <div class="skills-bar">
+                  <span class="skills-percentage" style="width: 55%"></span>
+                </div>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-titles">
+                  <h3 class="skills-name">Photoshop</h3>
+                  <span class="skills-number">40%</span>
+                </div>
+
+                <div class="skills-bar">
+                  <span class="skills-percentage" style="width: 40%"></span>
+                </div>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-titles">
+                  <h3 class="skills-name">Unity</h3>
+                  <span class="skills-number">30%</span>
+                </div>
+
+                <div class="skills-bar">
+                  <span class="skills-percentage" style="width: 30%"></span>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- ====== SERVICES ====== -->
-      <!-- <section class="services section" id="services">
+    <!-- ====== WORK ====== -->
+    <section class="work section" id="work">
+      <h2 data-heading="Mi Portafolio" class="section-title">
+        Proyectos Recientes
+      </h2>
+
+      <div class="work-container container grid">
+        <div class="work-card">
+          <img src="img/work/cajeroautomatico.jpg" alt="" class="work-img" />
+          <h3 class="work-title">Cajero Automático</h3>
+          <span class="work-button">Info
+            <i class="uil uil-arrow-right work-button-icon"></i>
+          </span>
+          <siv class="portfolio-item-details">
+            <h3 class="details-title">Cajero Automático basico</h3>
+            <p class="details-description">
+              Programado en Java usando condicionales, clases, excepciones, UI
+              Contiene un login, ingresar dinero, extraer dinero, mostrar
+              movimientos.
+            </p>
+            <ul class="details-info">
+              <li>Ultima Actualizacion - <span>dic 2021</span></li>
+              <li>Tecnologias - <span>Java</span></li>
+              <li>Tipo - <span>Escritorio</span></li>
+              <li>
+                Ver -
+                <span><a href="https://github.com/leitnergaston/CajeroAutomatico" target="_blank">link</a></span>
+              </li>
+            </ul>
+          </siv>
+        </div>
+
+        <div class="work-card">
+          <img src="img/work/mrmichgame.jpg" alt="" class="work-img" />
+          <h3 class="work-title">Mr Mich Game</h3>
+          <span class="work-button">Info
+            <i class="uil uil-arrow-right work-button-icon"></i>
+          </span>
+          <div class="portfolio-item-details">
+            <h3 class="details-title">Pagina Web de juegos Basica</h3>
+            <p class="details-description">
+              Diseño de una pagina web basica con minijuegos en desarrollo
+            </p>
+            <ul class="details-info">
+              <li>Ultima Actualizacion - <span>Dic 2022</span></li>
+              <li>Tecnologias - <span>Html | Css | JavaScript</span></li>
+              <li>Tipo - <span>Frontend</span></li>
+              <li>
+                Ver -
+                <span><a href="https://mrmichgame.netlify.app" target="_blank">link</a></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="work-card">
+          <img src="img/work/mrmemory.jpg" alt="" class="work-img" />
+          <h3 class="work-title">Mr. Memory</h3>
+          <span class="work-button">Info
+            <i class="uil uil-arrow-right work-button-icon"></i>
+          </span>
+          <div class="portfolio-item-details">
+            <h3 class="details-title">Mr. Memory juego web</h3>
+            <p class="details-description">
+              Juego Basico de memoria de cartas, con niveles de dificultad,
+              temporizador y tabla de clasificaciones local. (En desarrollo)
+            </p>
+            <ul class="details-info">
+              <li>Ultima Actualizacion - <span>19 Jun 2023</span></li>
+              <li>Tecnologias - <span>html | css | JavaScript</span></li>
+              <li>Tipo - <span>Juego Web</span></li>
+              <li>
+                Ver -
+                <span><a href="https://mrmemory.netlify.app" target="_blank">link</a></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="work-card">
+          <img src="img/work/donalandia.jpg" alt="" class="work-img" />
+          <h3 class="work-title">Donalandia</h3>
+          <span class="work-button">Info
+            <i class="uil uil-arrow-right work-button-icon"></i>
+          </span>
+          <div class="portfolio-item-details">
+            <h3 class="details-title">Donalandia</h3>
+            <p class="details-description">
+              Pagina web E-Commerce de venta de donas clasicas, especiales,
+              promociones, armá tu propia dona. (En desarrollo)
+            </p>
+            <ul class="details-info">
+              <li>Ultima Actualizacion - <span>---</span></li>
+              <li>Tecnologias - <span>html | css | JavaScript</span></li>
+              <li>Tipo - <span>Web</span></li>
+              <li>
+                Ver -
+                <span><a href="https://donalandia.netlify.app" target="_blank">link</a></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="work-card">
+          <img src="img/work/SweetHome.jpg" alt="" class="work-img" />
+          <h3 class="work-title">Sweet Home</h3>
+          <span class="work-button">Info
+            <i class="uil uil-arrow-right work-button-icon"></i>
+          </span>
+          <div class="portfolio-item-details">
+            <h3 class="details-title">Sweet Home</h3>
+            <p class="details-description">
+              Sistema de Inmobiliaria desarrollado en equipo durante el cursado de Argentina Programa 4.0
+              Hecho en Java con ventanas para crear Propietarios, Inquilinos, Inmuebles y Contratos con base de datos local
+            </p>
+            <ul class="details-info">
+              <li>Ultima Actualizacion - <span>30 Oct 2023</span></li>
+              <li>Tecnologias - <span>Java | Jdbc | Sql</span></li>
+              <li>Tipo - <span>Escritorio</span></li>
+              <li>
+                Ver - <span><a href="https://github.com/leitnergaston/Inmobiliaria32">link</a></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== PORTFOLIO POPUP ====== -->
+    <div class="portfolio-popup">
+      <div class="portfolio-popup-inner">
+        <div class="portfolio-popup-content grid">
+          <span class="portfolio-popup-close"><i class="uil uil-times"></i></span>
+          <div class="pp-thumbnail">
+            <img src="img/portfolio2/work-2.webp" alt="" class="portfolio-popup-img" />
+          </div>
+          <div class="portfolio-popup-info">
+            <div class="portfolio-popup-subtitle">- <span>Design</span></div>
+            <div class="portfolio-popup-body">
+              <h3 class="details-title">Mobile app landing design</h3>
+              <p class="details-description">
+                alknsdjaobnf ausjbnfjk asbnf j
+              </p>
+              <ul class="details-info">
+                <li>Created - <span>4 dec 2020</span></li>
+                <li>Technologies - <span>html css</span></li>
+                <li>Role - <span>frontend</span></li>
+                <li>
+                  View - <span><a href="#">www.google.com.ar</a></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====== SERVICES ====== -->
+    <!-- <section class="services section" id="services">
             <h2 data-heading="Servicios" class="section-title">Que puedo ofrecer</h2>
 
             <div class="services-container container grid">
@@ -922,8 +820,8 @@
             </div>
         </section> -->
 
-      <!-- ====== TESTIMONIALS ====== -->
-      <!-- <section class="testimonials section">
+    <!-- ====== TESTIMONIALS ====== -->
+    <!-- <section class="testimonials section">
             <h2 data-heading="Mis referencias" class="section-title">Testimonios</h2>
 
             <div class="testimonials-container container swiper">
@@ -1030,167 +928,132 @@
             </div>
         </section> -->
 
-      <!-- ====== CONTACT ====== -->
-      <section class="contact section" id="contact">
-        <h2 data-heading="Get in touch" class="section-title">Contáctame</h2>
+    <!-- ====== CONTACT ====== -->
+    <section class="contact section" id="contact">
+      <h2 data-heading="Ponte en contacto" class="section-title">Contáctame</h2>
 
-        <div class="contact-container container grid">
-          <div class="contact-content">
-            <div class="contact-info">
-              <div class="contact-card">
-                <i class="uil uil-envelope-edit contact-card-icon"></i>
-                <h3 class="contact-card-title">Email</h3>
-                <span class="contact-card-data">leitnergaston@gmail.com</span>
-                <a
-                  href="mailto:gastoncito8888@gmail.com"
-                  target="_blank"
-                  class="contact-button"
-                >
-                  Escríbeme
-                  <i class="uil uil-angle-right contact-button-icon"></i>
-                </a>
-              </div>
+      <div class="contact-container container grid">
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-card">
+              <i class="uil uil-envelope-edit contact-card-icon"></i>
+              <h3 class="contact-card-title">Email</h3>
+              <span class="contact-card-data">leitnergaston@gmail.com</span>
+              <a href="mailto:gastoncito8888@gmail.com" target="_blank" class="contact-button">
+                Escríbeme
+                <i class="uil uil-angle-right contact-button-icon"></i>
+              </a>
+            </div>
 
-              <div class="contact-card">
-                <i class="uil uil-whatsapp contact-card-icon"></i>
-                <h3 class="contact-card-title">WhatsApp</h3>
-                <span class="contact-card-data">+549 261-657-8894</span>
-                <a
-                  href="https://wa.me/+5492616578894"
-                  target="_blank"
-                  class="contact-button"
-                >
-                  Escríbeme
-                  <i class="uil uil-angle-right contact-button-icon"></i>
-                </a>
-              </div>
+            <div class="contact-card">
+              <i class="uil uil-whatsapp contact-card-icon"></i>
+              <h3 class="contact-card-title">WhatsApp</h3>
+              <span class="contact-card-data">+549 261-657-8894</span>
+              <a href="https://wa.me/+5492616578894" target="_blank" class="contact-button">
+                Escríbeme
+                <i class="uil uil-angle-right contact-button-icon"></i>
+              </a>
             </div>
           </div>
+        </div>
 
-          <div class="contact-content">
-            <form
-              action="https://formspree.io/f/xdovynwp"
-              method="POST"
-              id="form"
-              class="contact-form"
-            >
-              <div class="input-container">
-                <input type="text" name="name" class="input" required />
-                <label for="">Nombre Completo</label>
-                <span>Nombre Completo</span>
-              </div>
-              <div class="input-container">
-                <input type="email" name="email" class="input" required />
-                <label for="">Email</label>
-                <span>Email</span>
-              </div>
-              <!-- <div class="input-container">
+        <div class="contact-content">
+          <form action="https://formspree.io/f/xdovynwp" method="POST" id="form" class="contact-form">
+            <div class="input-container">
+              <input type="text" name="name" class="input" required />
+              <label for="">Nombre Completo</label>
+              <span>Nombre Completo</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" required />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <!-- <div class="input-container">
                             <input type="text" name="asunto" class="input">
                             <label for="">Asunto</label>
                             <span>Asunto</span>
                         </div> -->
-              <div class="input-container textarea">
-                <textarea name="message" class="input" required></textarea>
-                <label for="">Mensaje</label>
-                <span>Mensaje</span>
-              </div>
-              <button type="submit" class="button">
-                <i class="uil uil-navigator button-icon"></i>
-                Enviar
-              </button>
-            </form>
-            <span id="msg"></span>
-          </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input" required></textarea>
+              <label for="">Mensaje</label>
+              <span>Mensaje</span>
+            </div>
+            <button type="submit" class="button">
+              <i class="uil uil-navigator button-icon"></i>
+              Enviar
+            </button>
+          </form>
+          <span id="msg"></span>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- ====== FOOTER ====== -->
-      <footer class="footer">
-        <div class="footer-bg">
-          <div class="footer-container container grid">
-            <div>
-              <h1 class="footer-title text-ilumination">Gaston</h1>
-              <span class="footer-subtitle">Desarrollador Java</span>
-            </div>
-
-            <ul class="footer-links">
-              <li>
-                <a href="#work" class="footer-link">Proyectos</a>
-              </li>
-              <li>
-                <a href="#contact" class="footer-link">Contacto</a>
-              </li>
-            </ul>
-
-            <div class="footer-socials">
-              <a
-                href="https://wa.me/+5492616578894"
-                target="_blank"
-                class="footer-social"
-              >
-                <i class="uil uil-whatsapp"></i>
-              </a>
-              <a
-                href="https://linkedin.com/in/leitnergaston/"
-                target="_blank"
-                class="footer-social"
-              >
-                <i class="uil uil-linkedin-alt"></i>
-              </a>
-              <a
-                href="https://github.com/leitnergaston"
-                target="_blank"
-                class="footer-social"
-              >
-                <i class="uil uil-github-alt"></i>
-              </a>
-
-              <a
-                href="https://www.instagram.com/gastex/"
-                target="_blank"
-                class="footer-social"
-              >
-                <i class="uil uil-instagram"></i>
-              </a>
-
-              <a
-                href="https://open.spotify.com/artist/2znWUnkP268dzzX9INyXv8?si=Ma-k1lOUStmf1wGMFIBu2w"
-                target="_blank"
-                class="footer-social"
-              >
-                <i class="fab fa-spotify"></i>
-              </a>
-
-              <a
-                href="https://soundcloud.com/gastex"
-                target="_blank"
-                class="footer-social"
-              >
-                <i class="fab fa-soundcloud"></i>
-              </a>
-            </div>
+    <!-- ====== FOOTER ====== -->
+    <footer class="footer">
+      <div class="footer-bg">
+        <div class="footer-container container grid">
+          <div>
+            <h1 class="footer-title text-ilumination">Gaston</h1>
+            <span class="footer-subtitle">Desarrollador Java</span>
           </div>
 
-          <p class="footer-copy">
-            &#169; Gaston Leitner Todos los derechos reservados
-          </p>
+          <ul class="footer-links">
+            <li>
+              <a href="#work" class="footer-link">Proyectos</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer-link">Contacto</a>
+            </li>
+          </ul>
+
+          <div class="footer-socials">
+            <a href="https://wa.me/+5492616578894" target="_blank" class="footer-social">
+              <i class="uil uil-whatsapp"></i>
+            </a>
+            <a href="https://linkedin.com/in/leitnergaston/" target="_blank" class="footer-social">
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+            <a href="https://github.com/leitnergaston" target="_blank" class="footer-social">
+              <i class="uil uil-github-alt"></i>
+            </a>
+
+            <a href="https://www.instagram.com/gastex/" target="_blank" class="footer-social">
+              <i class="uil uil-instagram"></i>
+            </a>
+
+            <a href="https://open.spotify.com/artist/2znWUnkP268dzzX9INyXv8?si=Ma-k1lOUStmf1wGMFIBu2w" target="_blank"
+              class="footer-social">
+              <i class="fab fa-spotify"></i>
+            </a>
+
+            <a href="https://soundcloud.com/gastex" target="_blank" class="footer-social">
+              <i class="fab fa-soundcloud"></i>
+            </a>
+          </div>
         </div>
-      </footer>
-    </main>
 
-    <!-- ====== SCROLL UP ====== -->
-  </body>
+        <p class="footer-copy">
+          &#169; Gaston Leitner Todos los derechos reservados 2023
+        </p>
+      </div>
+    </footer>
+  </main>
 
-  <!--=============== SWIPER JS ===============-->
-  <script src="/js/swiper-bundle.min.js"></script>
+  <!-- ====== SCROLL UP ====== -->
+</body>
 
-  <!--=============== MAIN JS ===============-->
-  <script src="js/main.js"></script>
-  <script src="js/text-animation2.js"></script>
-  <script src="js/maquina-escribir2.js"></script>
+<!--=============== SWIPER JS ===============-->
+<script src="/js/swiper-bundle.min.js"></script>
 
-  <!--=============== FORMULARIO DE CONTACTO JS ===============-->
-  <script src="js/contact-form.js"></script>
+<!--=============== MAIN JS ===============-->
+<script src="js/main.js"></script>
+<script src="js/text-animation2.js"></script>
+<script src="js/maquina-escribir2.js"></script>
 
-  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<!--=============== FORMULARIO DE CONTACTO JS ===============-->
+<script src="js/contact-form.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
 </html>
