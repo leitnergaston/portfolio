@@ -101,7 +101,7 @@ input{
 body{
   background-color: var(--body-color);
   color: var(--text-color);
-  cursor: url('../img/cursors/aero_arrow.cur'), pointer;
+  cursor: url('../img/cursors/aero_arrow.cur'), pointer; /*CURSOR*/
 }
 
 h1, h2, h3{
@@ -398,7 +398,7 @@ transform: scale(1);
 
 /* ==================== HOME SECTION ==================== */
 .home{
-  background: url('/img/home-img.png');
+  background: url('/img/fotosPerfil/home-img.png'); /*Foto fondo home*/
   background-size: cover;
   background-position: center center;
   height: 100vh;
@@ -1348,6 +1348,7 @@ textarea.input{
 }
 
 @media screen and (max-width: 1216px) {
+
   .about-container{
     column-gap: 2.5rem;
   }
