@@ -123,7 +123,7 @@ const modalViews = document.querySelectorAll('.services-modal'),
 
 /*=============== SWIPER TESTIMONIAL ===============*/
 let swiper = new Swiper(".testimonials-container", {
-    spaceBewtween: 24,
+    spaceBetween: 24,
     loop: true,
     grabCursor: true,
     pagination: {
