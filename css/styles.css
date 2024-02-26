@@ -1,6 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
   /* --bg-black-900:#f2f2fc; */
@@ -85,6 +84,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: url('../img/cursors/aero_arrow.cur');
 }
 
 html{
@@ -101,7 +101,7 @@ input{
 body{
   background-color: var(--body-color);
   color: var(--text-color);
-  cursor: url('../img/cursors/aero_arrow.cur'), pointer; /*CURSOR*/
+  
 }
 
 h1, h2, h3{
@@ -174,7 +174,7 @@ input{
 
 
 
-/* .button::after{
+.button::after{
   position: absolute;
   content: '';
   left: 0;
@@ -191,7 +191,7 @@ input{
       
 .button:hover::after{
 transform: scale(1);
-} */
+}
 
 .button-icon{
   font-size: 1.25rem;
@@ -284,13 +284,13 @@ transform: scale(1);
 }
 /* LOGO ILUMINATION */
 
-.img-gorrito {
+/* .img-gorrito {
   position: fixed;
   width: 65px;
   top: -9px;
   left: 25px;
   transform: rotate(20deg);
-}
+} */
 
 .nav-menu{
   position: fixed;
@@ -388,7 +388,7 @@ transform: scale(1);
 
 /* ==================== HOME SECTION ==================== */
 .home{
-  background: url('/img/fotosPerfil/home-img.png'); /*Foto fondo home*/
+  background: url('/img/fotosPerfil/home-img.png');
   background-size: cover;
   background-position: center center;
   height: 100vh;
@@ -486,8 +486,8 @@ transform: scale(1);
 /* MAQUINA DE ESCRIBIR PARRAFO */
 .maquina-escribir {
     font-family: monospace;
-    white-space: nowrap; /* los espacios en blanco no rompen la línea */        
-    width: 20ch; /* el ancho será el número de caracteres que tiene nuestra línea */
+    white-space: nowrap; /*los espacios en blanco no rompen la línea        */
+    width: 20ch; /*el ancho será el número de caracteres que tiene nuestra línea*/
     animation: escribiendo ss steps(20);          
     overflow: hidden;
 }
@@ -780,7 +780,6 @@ transform: scale(1);
 }
 
 .work-card:hover {
-  /* transform: scale(1.04); */
   transform: translateY(-.5rem);
   filter: drop-shadow(2px 8px 8px #797979);
 }
@@ -1031,10 +1030,10 @@ transform: scale(1);
 }
 
 /* ACTIVE MODAL */
-.active-modal{
+/* .active-modal{
   opacity: 1;
   visibility: visible;
-}
+} */
 
 /*===== Testimonial Section =====*/
 @media screen and (min-width: 992px){
@@ -1340,7 +1339,6 @@ textarea.input{
 /*=============== SCROLL UP ===============*/
 
 
-/* Show Scroll Up*/
 
 
 /*=============== SCROLL BAR ===============*/
