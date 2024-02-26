@@ -174,7 +174,7 @@ input{
 
 
 
-.button::after{
+/* .button::after{
   position: absolute;
   content: '';
   left: 0;
@@ -187,7 +187,7 @@ input{
   transform: scale(0);
   border-radius: .25rem;
   transition: .3s;
-}
+} */
       
 .button:hover::after{
 transform: scale(1);
