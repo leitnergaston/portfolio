@@ -37,6 +37,7 @@ a {
 #links {
 	color: var(--link-color);
 	text-decoration: underline;
+	transition: .2s ease;
 }
 
 #links:hover {
@@ -101,6 +102,7 @@ a {
 	background: var(--container-color);
 	grid-template-columns: 1fr 1fr;
 	gap: 4rem;
+	border-radius: 10px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -210,6 +212,14 @@ a {
 	line-height: 2;
 }
 
+.skills_list li {
+	list-style: circle;
+}
+
+.skills_list li:hover {
+	list-style: disc;
+}
+
 /* Ref  */
 .ref_item {
 	margin-top: 2rem;
@@ -277,6 +287,7 @@ a {
 	align-items: center;
 	justify-content: flex-start;
 	color: var(--text-color);
+	transition: .2s ease;
 }
 
 .social_item:hover {
@@ -300,5 +311,52 @@ a {
 @media only screen and (max-width: 768px) {
 	hr {
 		margin: 0 auto;
+	}
+}
+
+/* Efecto background */
+body {
+	background: #0c192c;
+}
+
+.contenedorBubbles {
+	position: relative;
+	width: 100%;
+	z-index: -1;
+}
+
+.bubbles {
+	position: relative;
+	display: flex;
+}
+
+.bubbles span {
+	position: relative;
+	width: 30px;
+	height: 30px;
+	background: #4fc3dc;
+	margin: 0 4px;
+	border-radius: 50%;
+	box-shadow: 0 0 0 10px #4fc3dc44,
+	0 0 50px #4fc3dc,
+	0 0 100px #4fc3dc;
+	animation: animate 15s linear infinite;
+	animation-duration: calc(180s / var(--i));
+}
+.bubbles span:nth-child(even) {
+	background: #8F3985;
+	box-shadow: 0 0 0 10px #8F398544,
+	0 0 50px #8F3985,
+	0 0 100px #8F3985;
+}
+@keyframes animate
+{
+	0%
+	{
+		transform: translateY(250vh) scale(0);
+	}
+	100%
+	{
+		transform: translateY(-10vh) scale(1);
 	}
 }
