@@ -580,6 +580,10 @@ transform: scale(1);
   margin-bottom: var(--mb-2);
 }
 
+.about-item-description {
+  color: var(--first-color-alt);
+}
+
 .about-info{
   grid-template-columns: repeat(3, 140px);
   column-gap: .5rem;
