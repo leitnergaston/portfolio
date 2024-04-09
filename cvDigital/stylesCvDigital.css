@@ -283,17 +283,16 @@ a {
 }
 
 /* socials */
-.social_items {
+.contactDiv {
 	margin-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 5px;
 }
 
 .social_item {
-	margin-top: 1.5rem;
 	font-size: 1.5rem;
-	display: flex;
-	gap: 0.5rem;
-	align-items: center;
-	justify-content: flex-start;
 	color: var(--text-color);
 	transition: .2s ease;
 }
